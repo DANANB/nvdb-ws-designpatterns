@@ -1,8 +1,10 @@
 {
   "name": "todo",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
+  "description": "Base template for the NVDB Design Patterns workshop 29/9/2023",
+  "repository": "https://github.com/DANANB/nvdb-ws-designpatterns",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
