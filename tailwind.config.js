@@ -8,6 +8,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    minHeight: {
+      '44': '11rem',
+    },
     extend: {
       fontFamily: {
         roboto: ['Roboto', ...defaultTheme.fontFamily.sans]
